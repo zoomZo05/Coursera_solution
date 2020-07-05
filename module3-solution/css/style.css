@@ -1,0 +1,90 @@
+body {
+    color: #ffffff;
+    font-family: serif;
+}
+
+#header-nav {
+    background-color: #85E3ff;
+    text-align: left;
+    padding: 16px 16px;
+    border: 2px solid #BCBDB3
+}
+
+#header-container {
+    margin: auto 30px;
+}
+
+#header-container h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler-icon:hover {
+    background-color: #BCBDB3;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+#navbarmenu {
+    margin-top: -2px;
+    border: 2px solid #BCBDB3
+}
+
+.nav-item1,
+.nav-item2 {
+    border-bottom: 2px solid #BCBDB3;
+}
+
+.nav-item1:hover,
+.nav-item2:hover,
+.nav-item3:hover {
+    background-color: #FFFFD1;
+}
+
+.nav-link span {
+    color: #2B2B2D;
+}
+
+#content-name {
+    margin: 2rem auto;
+}
+
+#menu {
+    color: #5c5c5c;
+    margin-bottom: 2rem;
+}
+
+#text-box1,
+#text-box2,
+#text-box3 {
+    background-color: gray;
+}
+
+.title {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.End {
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:767px) and (min-width:576px) {
+    #text-box3 {
+        flex: 0 0 calc(100% - 3.5rem);
+    }
+}
+
+@media screen and (max-width:576px) {
+    #text-box3,
+    #text-box2,
+    #text-box1 {
+        flex: 0 0 calc(100% - 3.5rem);
+    }
+}
