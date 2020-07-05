@@ -50,41 +50,37 @@ body {
     color: #2B2B2D;
 }
 
-#content-name {
-    margin: 2rem auto;
-}
-
-#menu {
-    color: #5c5c5c;
-    margin-bottom: 2rem;
-}
-
-#text-box1,
-#text-box2,
-#text-box3 {
-    background-color: gray;
-}
-
-.title {
-    text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
 .End {
     text-transform: capitalize;
 }
 
-@media screen and (max-width:767px) and (min-width:576px) {
-    #text-box3 {
-        flex: 0 0 calc(100% - 3.5rem);
-    }
+#main {
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    padding: 3rem 0;
 }
 
-@media screen and (max-width:576px) {
-    #text-box3,
-    #text-box2,
-    #text-box1 {
-        flex: 0 0 calc(100% - 3.5rem);
+.content-box {
+    background-color: gray;
+    margin-bottom: 5rem;
+    padding: 25px;
+}
+
+.content-box h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.content-box div {
+    text-align: left;
+}
+
+@media (min-width:768px) {
+    .navbar-nav,
+    .nav-item1,
+    .nav-item2,
+    .navbar-collapse {
+        display: none;
     }
 }

@@ -11,57 +11,66 @@
 
     <body>
         <header>
-            <nav id="header-nav" class="navbar navbar-light">
+            <nav id="header-nav" class="navbar navbar-light navbar-expand-lg">
                 <div id="header-container" class="container-fluid">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="index.html">
                             <h1>Food, LLC</h1>
                         </a>
                     </div>
-                    <button type="button" class="navbar-toggler d-sm-none" data-toggle="collapse" data-target="#navbarmenu">  
+                    <button class="navbar-toggler d-sm-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
             </nav>
             <div class="collapse navbar-collapse" id="navbarmenu">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item1">
-                        <a href="#" class="nav-link"><span>Chicken</span></a>
+                    <li class="nav-item1 nav-item active">
+                        <a href="#A" class="nav-link"><span>Chicken</span></a>
                     </li>
 
                     <li class="nav-item2">
-                        <a href="#" class="nav-link"><span>Beef</span></a>
+                        <a href="#B" class="nav-link"><span>Beef</span></a>
                     </li>
 
                     <li class="nav-item3">
-                        <a href="#" class="nav-link"><span>Sushi</span></a>
+                        <a href="#C" class="nav-link"><span>Sushi</span></a>
                     </li>
                 </ul>
             </div>
         </header>
 
-        <div id="content-name" class="container"></div>
-        <h2 id="menu" class="text-center">Our menu</h2>
-        </div>
-
-        <div class="container-fluid">
-            <section class="row justify-content-around">
-                <div class="col-md-3 col-sm-5 col-12 p-3 my-3" id="text-box1">
-                    <h3 class="title">chicken</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perferendis porro, reprehenderit nam dolorum voluptatibus fuga ab est facere? Fugiat corporis in repellendus. Magni, dignissimos! Nisi nobis quod voluptates sit at esse
-                        aut cupiditate totam inventore consequatur laboriosam fugiat amet temporibus, aliquam impedit. Voluptatum expedita quia aliquam animi obcaecati rerum.<br> <span class="End">(end of chicken section)</span><a href="#header-nav" class="Top-link"><span>    Back To Top</span></a></p>
+        <div id="main-content" class="container-fluid">
+            <h2 id="main" class="text-center">Our menu</h2>
+            <div id="main-content" class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12" id="box">
+                    <div class="content-box">
+                        <h3 id="A">Chicken</h3>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, neque distinctio? Ad quas a ipsum veritatis velit ipsa dolorem corporis dolor incidunt odit, nesciunt modi tempore harum unde voluptas alias molestiae dicta cupiditate
+                            suscipit vero voluptatum! Alias suscipit, corrupti beatae incidunt voluptate quae quaerat fuga similique quia corporis iste minima quis soluta ullam amet repellendus voluptates voluptatem sit maiores voluptas quos voluptatum
+                            ex? Sequi tempore odit a nostrum, reiciendis harum. Nihil, qui voluptate. Similique ratione dignissimos, dolores nemo quia numquam. <br> <span>(end of chicken section)</span> <a href="#header-nav" class="Top-link"><span>    Back To Top</span></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3 col-sm-5 col-12 p-3 my-3" id="text-box2">
-                    <h3 class="title">beef</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perferendis porro, reprehenderit nam dolorum voluptatibus fuga ab est facere? Fugiat corporis in repellendus. Magni, dignissimos! Nisi nobis quod voluptates sit at esse
-                        aut cupiditate totam inventore consequatur laboriosam fugiat amet temporibus, aliquam impedit. Voluptatum expedita quia aliquam animi obcaecati rerum.<br> <span class="End">(end of beef section)</span><a href="#header-nav" class="Top-link"><span>    Back To Top</span></a></p>
+                <div class="col-md-4 col-sm-6 col-xs-12" id=box>
+                    <div class="content-box">
+                        <h3 id="B">Beef</h3>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, neque distinctio? Ad quas a ipsum veritatis velit ipsa dolorem corporis dolor incidunt odit, nesciunt modi tempore harum unde voluptas alias molestiae dicta cupiditate
+                            suscipit vero voluptatum! Alias suscipit, corrupti beatae incidunt voluptate quae quaerat fuga similique quia corporis iste minima quis soluta ullam amet repellendus voluptates voluptatem sit maiores voluptas quos voluptatum
+                            ex? Sequi tempore odit a nostrum, reiciendis harum. Nihil, qui voluptate. Similique ratione dignissimos, dolores nemo quia numquam. <br> <span>(end of chicken section)</span><a href="#header-nav" class="Top-link"><span>    Back To Top</span></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-3 col-sm-12 col-12 p-3 my-3" id="text-box3">
-                    <h3 class="title">sushi</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perferendis porro, reprehenderit nam dolorum voluptatibus fuga ab est facere? Fugiat corporis in repellendus. Magni, dignissimos! Nisi nobis quod voluptates sit at esse
-                        aut cupiditate totam inventore consequatur laboriosam fugiat amet temporibus, aliquam impedit. Voluptatum expedita quia aliquam animi obcaecati rerum.<br> <span class="End">(end of sushi section)</span><a href="#header-nav" class="Top-link"><span>    Back To Top</span></a></p>
+                <div class="col-md-4 col-sm-12 col-xs-12 " id="box">
+                    <div class="content-box">
+                        <h3 id="C">Sushi</h3>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, neque distinctio? Ad quas a ipsum veritatis velit ipsa dolorem corporis dolor incidunt odit, nesciunt modi tempore harum unde voluptas alias molestiae dicta cupiditate
+                            suscipit vero voluptatum! Alias suscipit, corrupti beatae incidunt voluptate quae quaerat fuga similique quia corporis iste minima quis soluta ullam amet repellendus voluptates voluptatem sit maiores voluptas quos voluptatum
+                            ex? Sequi tempore odit a nostrum, reiciendis harum. Nihil, qui voluptate. Similique ratione dignissimos, dolores nemo quia numquam. <br> <span>(end of chicken section)</span><a href="#header-nav" class="Top-link"><span>    Back To Top</span></a>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </div>
         </div>
 
         <!-- JS files-->
